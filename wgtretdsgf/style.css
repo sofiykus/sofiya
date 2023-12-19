@@ -1,0 +1,50 @@
+.qq{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(234, 0, 255);
+    transition: all 1s;
+}
+
+.qq:hover{
+    background-color: rgb(192, 93, 210);
+
+}
+
+.btn{
+    transition: all 1s;
+}
+
+.btn:active{
+    background-color: rgb(192, 33, 228);
+    font-size: 20px;
+}.btn-2{
+    transition: all 1s;
+}
+
+.btn-2:focus{
+    border: 3px solid rgb(217, 0, 255);
+}
+
+.link{
+    transition: all 1s;
+}
+
+.link:visited{
+    color: blueviolet;
+}
+
+li{
+transition: all 1s;
+}
+
+li:first-child{
+    color: rgb(9, 9, 243);
+}
+
+li:last-child{
+    color: chartreuse;
+}
+
+li:nth-child(odd){
+background-color: brown;
+}
