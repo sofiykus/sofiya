@@ -1,0 +1,97 @@
+body{
+    background: #EEEFF1; 
+}
+
+.nav{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn{
+    border-radius: 50px;
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 30px;
+}
+
+.link{
+    color: #1B1B1D;
+font-family: Jost;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+h1{
+    color: #1B1B1D;
+font-family: Jost;
+font-size: 124px;
+font-style: normal;
+font-weight: 800;
+line-height: 140px; /* 112.903% */
+}
+
+h1::after{
+   content: '';
+   width: 70px;
+   height: 70px;
+   display: inline-block;
+   background-image: url(qq.png);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.card{
+    border-radius: 24px;
+background: linear-gradient(152deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.15);
+padding: 40px;
+}
+
+
+h2{
+    color: #1B1B1D;
+text-align: center;
+font-family: Jost;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: 70px; /* 109.375% */
+text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.card .btn{
+    margin: 0 auto;
+    display: block;
+}
+
+.card img{
+    margin: 0 auto;
+    display: block;
+}
