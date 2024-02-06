@@ -1,0 +1,244 @@
+body{
+    background-color:hsla(0,100%,50%,1);
+    background-image:
+    radial-gradient(at 37% 67%, hsla(1,98%,66%,1) 0px, transparent 50%),
+    radial-gradient(at 40% 20%, hsla(266,79%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(264,100%,56%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(355,87%,60%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(18,91%,54%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(19,71%,55%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(240,93%,61%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(174,100%,74%,1) 0px, transparent 50%);
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    
+    gap: 55px;
+}
+
+.card_kecin{
+    .button1 {
+        box-shadow: 3px 4px 0px 0px #d07bd4;
+        background:linear-gradient(to bottom, #f07af0 5%, #f0b7f0 100%);
+        background-color:#f07af0;
+        border-radius:15px;
+        border:1px solid #c7abc7;
+        display:inline-block;
+        cursor:pointer;
+        color:#cb21ed;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #bb90d1;
+    }
+   
+}
+
+
+.card_raydir{
+     img{
+        width: 595px;
+        height: 990px;
+        }
+
+        .button2 {
+            box-shadow: 3px 4px 0px 0px #a862d6;
+            background:linear-gradient(to bottom, #9608f5 5%, #e591fa 100%);
+            background-color:#9608f5;
+            border-radius:15px;
+            border:1px solid #d6bcd6;
+            display:inline-block;
+            cursor:pointer;
+            color:#6600ff;
+            font-family:Arial;
+            font-size:17px;
+            padding:7px 25px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #4d57c7;
+        }
+        
+        
+        
+}
+
+
+
+
+.card_delyok {
+img{
+    width: 595px;
+    height: 990px;
+}
+.button3 {
+	box-shadow: 3px 4px 0px 0px #cf2929;
+	background:linear-gradient(to bottom, #e3000b 5%, #700000 100%);
+	background-color:#e3000b;
+	border-radius:15px;
+	border:1px solid #e83c45;
+	display:inline-block;
+	cursor:pointer;
+	color:#080000;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #120101;
+}
+
+
+
+}
+
+.card_ded{
+    img{
+        width: 595px;
+        height: 990px;
+    }
+
+    .button4 {
+        box-shadow: 3px 4px 0px 0px #cf7f29;
+        background:linear-gradient(to bottom, #e34800 5%, #b59b1a 100%);
+        background-color:#e34800;
+        border-radius:15px;
+        border:1px solid #918e52;
+        display:inline-block;
+        cursor:pointer;
+        color:#f09b08;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffd21c;
+    }
+   
+    
+}
+
+
+.cards2{
+    display: flex;
+    justify-content: center;
+    
+    gap: 55px;
+}
+
+
+.card_key{
+    img{
+        width: 595px;
+        height: 990px; 
+    }
+    .button5 {
+        box-shadow: 3px 4px 0px 0px #296ccf;
+        background:linear-gradient(to bottom, #005be3 5%, #1b8ab3 100%);
+        background-color:#005be3;
+        border-radius:15px;
+        border:1px solid #51688f;
+        display:inline-block;
+        cursor:pointer;
+        color:#0915f0;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #1c68ff;
+    }
+    
+    
+}
+
+.card_fishel{
+    img{
+        width: 595px;
+        height: 990px;
+    }
+    .button6 {
+        box-shadow: 3px 4px 0px 0px #3429cf;
+        background:linear-gradient(to bottom, #4f00fa 5%, #6f1db3 100%);
+        background-color:#4f00fa;
+        border-radius:15px;
+        border:1px solid #7a1de3;
+        display:inline-block;
+        cursor:pointer;
+        color:#095ef0;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #591cff;
+    }
+    
+    
+}
+
+.card_nevelit{
+    img{
+        width: 595px;
+        height: 990px;
+    }
+    .button7 {
+        box-shadow: 3px 4px 0px 0px #2937cf;
+        background:linear-gradient(to bottom, #00abfa 5%, #1e5ab3 100%);
+        background-color:#00abfa;
+        border-radius:15px;
+        border:1px solid #2b1de3;
+        display:inline-block;
+        cursor:pointer;
+        color:#0938f0;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #1c1cff;
+    }
+    
+    
+}
+
+.card_ho-tao{
+    img{
+        width: 595px;
+        height: 990px;
+    }
+    .button8 {
+        box-shadow: 3px 4px 0px 0px #cf2929;
+        background:linear-gradient(to bottom, #fa0000 5%, #5e0b0b 100%);
+        background-color:#fa0000;
+        border-radius:15px;
+        border:1px solid #e31d3e;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ff1c1c;
+    }
+    
+    
+}
+
+.button{
+    a {
+        box-shadow:inset 0px 1px 0px 0px #bee2f9;
+        background:linear-gradient(to bottom, #64fa46 5%, #468ccf 100%);
+        background-color:#64fa46;
+        border-radius:6px;
+        border:1px solid #3866a3;
+        display:inline-block;
+        cursor:pointer;
+        color:#14396a;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #7cacde;
+    }
+   
+    
+}
