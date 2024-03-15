@@ -2,6 +2,8 @@ body{
     background-image: url(https://gas-kvas.com/grafic/uploads/posts/2023-09/1695826596_gas-kvas-com-p-kartinki-genshin-impakt-13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+	background-position:center ;
+	height: 100dvh;
 }
 
 
@@ -13,6 +15,10 @@ body{
 h1{
   font-family: 'Times New Roman', Times, serif;
    font-size: 95px;
+   text-align: center;
+   @media (max-width:600px) {
+	font-size: 40px;
+   }
 }
 
 
