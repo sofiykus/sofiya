@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 10px 5px rgba(0, 0, 0, 0.532) ;
+    text-align: center;
+    img{
+        width: 90%;
+        /* box-shadow: 1px 10px 5px rgba(0, 0, 0, 0.532) ; */
+        filter: drop-shadow(rgba(0, 0, 0, 0.421) 1px 1xp 20px);
+    }
+}
+
+.wrapper{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    @media (max-width:900px) {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    @media (max-width:700px) {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    @media (max-width:400px) {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/8284067/pub_64046063976ffe173bb5659a_64046319eec1806a68369097/scale_1200);
+    background-size: cover;
+    background-position: center;
+   width: 100%;
+
+}
