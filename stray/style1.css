@@ -1,8 +1,20 @@
-body{
+
+
+
+
+
+
+
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
+
+
 
 
 .cards__wrapper {
@@ -44,6 +56,6 @@ body{
 .contaenir{
   flex-wrap: wrap;
   @media (max-width: 700px) {
-    
+    display: flex;
   }
 }
